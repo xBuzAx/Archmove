@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archmove</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@800&display=swap"
+        rel="stylesheet">
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body class="body">
+
+    <nav class="nav">
+        <div class="wrapper">
+            <div class="nav__navigation">
+                <div class="nav__navigation-left">
+                    <a href="#">
+                        <img src="./src/img/logo-arch.jpg" alt="Logo Archmove company">
+                    </a>
+                    <ul class="nav__desktop-list">
+                        <li class="nav__desktop-item">
+                            <a href="#works" class="nav__reference nav__desktop-link">How it Works</a>
+                        </li>
+                        <li class="nav__desktop-item">
+                            <a href="#gallery" class="nav__reference nav__desktop-link">Design Gallery</a>
+                        </li>
+                        <li class="nav__desktop-item">
+                            <a href="#architects" class="nav__reference nav__desktop-link">Architects</a>
+                        </li>
+                        <li class="nav__desktop-item">
+                            <a href="#articles" class="nav__reference nav__desktop-link">Articles</a>
+                        </li>
+                    </ul>
+                    <ul class="nav__mobile-list">
+                        <li class="nav__mobile-item">
+                            <a href="#works" class="nav__reference nav__mobile-link">How it Works</a>
+                        </li>
+                        <li class="nav__mobile-item">
+                            <a href="#gallery" class="nav__reference nav__mobile-link">Design Gallery</a>
+                        </li>
+                        <li class="nav__mobile-item">
+                            <a href="#architects" class="nav__reference nav__mobile-link">Architects</a>
+                        </li>
+                        <li class="nav__mobile-item">
+                            <a href="#articles" class="nav__reference nav__mobile-link">Articles</a>
+                        </li>
+                        <li class="nav__mobile-item">
+                            <button class="btn nav__btn--left">Sing In</button>
+                            <button class="btn btn__red">Sing Up</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__navigation-right">
+                    <label for="search" class="nav__search">
+                        <input type="text" id="search" class="nav__search-input ">
+                        <img src="./src/img/search.svg" alt="Search icon" class="nav__search-img ">
+                    </label>
+                    <div class="nav__desktop-buttons">
+                        <button class="btn nav__btn--left">Sing In</button>
+                        <button class="btn btn__red">Sing Up</button>
+                    </div>
+                    <div class="nav__burger">
+                        <button class="nav__burger-button">
+                            <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.33337 1.66675H22.6667M1.33337 12.3334H22.6667" stroke="#585858"
+                                    stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header nav-menu" id="works">
+        <div class="wrapper">
+            <h1 class="header__title">Build Your <br> Dream <span class="color-red">House</span></h1>
+
+            <div class="header__content">
+                <div class="header__text">
+                    <p>100% guaranteed build safe, <br> comfortable and transparent with a <br> project management for
+                        the best result</p>
+                    <button class="btn btn__red">Free Consultation</button>
+                </div>
+                <img src="./src/img/hero-image.png" alt="" class="header__img">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery nav-menu section" id="gallery">
+            <div class="wrapper">
+                <div class="gallery__title">
+                    <h2 class="section__title">Build professional<br> valuable room</h2>
+                    <div class="gallery__buttons">
+                        <button class="btn-swiper btn-gallery-prev"> <svg width="20" height="20" viewBox="0 0 20 20"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 11V9H6L10 5L9 3L2 10L9 17L10 15L6 11H18Z" fill="#FD665E" />
+                            </svg></button>
+                        <button class="btn-swiper btn-gallery-next">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 11V9H14L10 5L11 3L18 10L11 17L10 15L14 11H2Z" fill="#FD665E" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="swiper gallery-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./src/img/img-01.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-02.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-03.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-04.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-01.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-02.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-03.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-04.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/img-02.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="architects nav-menu section" id="architects">
+            <div class="wrapper">
+                <div class="architects__row">
+                    <div class="architects__left-img">
+                        <img src="./src/img/img-5.png"
+                            alt="A group of people sitting around a table talking and smiling while doing so"
+                            class="architects__img">
+                    </div>
+                    <div class="architects__build">
+                        <h2 class="architects__title section__title">Build your needs<br> with Archmove</h2>
+                        <div class="architects__content">
+                            <div class="architects__content-box">
+                                <img src="./src/img/shield.svg" alt="Shield icon" class="architects__content-box-icon">
+                                <div class="architects__content-text">
+                                    <p class="architects__text architects__text--bold">100% guaranteed project
+                                        completion</p>
+                                    <p class="architects__text architects__text--grey">Build safe, comfortable and
+                                        transparent
+                                        with a project
+                                        management application with a joint account.</p>
+                                </div>
+                            </div>
+                            <div class="architects__content-box">
+                                <img src="./src/img/square.svg" alt="Shield icon" class="architects__content-box-icon">
+                                <div class="architects__content-text">
+                                    <p class="architects__text architects__text--bold">No additional fees</p>
+                                    <p class="architects__text architects__text--grey">There are no hidden costs. The
+                                        value of the
+                                        offer you
+                                        get is the value you paid.</p>
+                                </div>
+                            </div>
+                            <div class="architects__content-box">
+                                <img src="./src/img/home.svg" alt="Shield icon" class="architects__content-box-icon">
+                                <div class="architects__content-text">
+                                    <p class="architects__text architects__text--bold">Get escort from the Team</p>
+                                    <p class="architects__text architects__text--grey">Monitor reports from the Arsitag
+                                        team who
+                                        check
+                                        directly in the field.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="architects__button">
+                    <button class="btn btn__red">Free Consultation</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="articles nav-menu section" id="articles">
+            <div class="wrapper">
+                <h2 class="articles__title section__title">Sound Too Good<br> To Be True?</h2>
+                <div class="articles__container swiper articles-swiper">
+                    <div class="articles__testimonials swiper-wrapper">
+                        <div class="articles__testimonial swiper-slide">
+                            <div class="articles__quote">
+                                <div class="articles__quote-icon">
+                                    <svg width="58" height="40" viewBox="0 0 58 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.7422 0C12.2969 1.89844 0.976562 11.1797 0.976562 24.3984C0.976562 33.5391 6.25 39.7266 13.8438 39.7266C21.8594 39.7266 26.5703 32.9062 26.5703 24.5391C19.8906 24.2578 15.3203 20.1094 15.3203 14.2031C15.3203 8.36719 19.75 4.5 25.8672 3.23438L24.7422 0ZM56.1719 0C43.7266 1.89844 32.4062 11.1797 32.4062 24.3984C32.4062 33.5391 37.6797 39.7266 45.2734 39.7266C53.2891 39.7266 58 32.9062 58 24.5391C51.3203 24.2578 46.6797 20.1094 46.6797 14.2031C46.6797 8.36719 51.1094 4.5 57.2266 3.23438L56.1719 0Z"
+                                            fill="#FD665E" />
+                                    </svg>
+                                </div>
+                                <p>“We just wanted to thank you for this fantastic website! We are so grateful for being
+                                    able to advertise our Petite cabin and receive feedback from people from all over
+                                    the U.S. and even further.”</p>
+                            </div>
+                            <div class="articles__author">
+                                <p>Adam Morph — CEO Alfatech</p>
+                            </div>
+                        </div>
+                        <div class="articles__testimonial swiper-slide">
+                            <div class="articles__quote">
+                                <div class="articles__quote-icon">
+                                    <svg width="58" height="40" viewBox="0 0 58 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.7422 0C12.2969 1.89844 0.976562 11.1797 0.976562 24.3984C0.976562 33.5391 6.25 39.7266 13.8438 39.7266C21.8594 39.7266 26.5703 32.9062 26.5703 24.5391C19.8906 24.2578 15.3203 20.1094 15.3203 14.2031C15.3203 8.36719 19.75 4.5 25.8672 3.23438L24.7422 0ZM56.1719 0C43.7266 1.89844 32.4062 11.1797 32.4062 24.3984C32.4062 33.5391 37.6797 39.7266 45.2734 39.7266C53.2891 39.7266 58 32.9062 58 24.5391C51.3203 24.2578 46.6797 20.1094 46.6797 14.2031C46.6797 8.36719 51.1094 4.5 57.2266 3.23438L56.1719 0Z"
+                                            fill="#FD665E" />
+                                    </svg>
+                                </div>
+                                <p>“We just wanted to thank you for this fantastic website! We are so grateful for being
+                                    able to advertise our Petite cabin and receive feedback from people from all over
+                                    the U.S. and even further.”</p>
+                            </div>
+                            <div class="articles__author">
+                                <p>Adam Morph — CEO Alfatech</p>
+                            </div>
+                        </div>
+                        <div class="articles__testimonial swiper-slide">
+                            <div class="articles__quote">
+                                <div class="articles__quote-icon">
+                                    <svg width="58" height="40" viewBox="0 0 58 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.7422 0C12.2969 1.89844 0.976562 11.1797 0.976562 24.3984C0.976562 33.5391 6.25 39.7266 13.8438 39.7266C21.8594 39.7266 26.5703 32.9062 26.5703 24.5391C19.8906 24.2578 15.3203 20.1094 15.3203 14.2031C15.3203 8.36719 19.75 4.5 25.8672 3.23438L24.7422 0ZM56.1719 0C43.7266 1.89844 32.4062 11.1797 32.4062 24.3984C32.4062 33.5391 37.6797 39.7266 45.2734 39.7266C53.2891 39.7266 58 32.9062 58 24.5391C51.3203 24.2578 46.6797 20.1094 46.6797 14.2031C46.6797 8.36719 51.1094 4.5 57.2266 3.23438L56.1719 0Z"
+                                            fill="#FD665E" />
+                                    </svg>
+                                </div>
+                                <p>“We just wanted to thank you for this fantastic website! We are so grateful for being
+                                    able to advertise our Petite cabin and receive feedback from people from all over
+                                    the U.S. and even further.”</p>
+                            </div>
+                            <div class="articles__author">
+                                <p>Adam Morph — CEO Alfatech</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articles__buttons">
+                        <button class="btn-swiper btn-articles-prev"> <svg width="20" height="20" viewBox="0 0 20 20"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 11V9H6L10 5L9 3L2 10L9 17L10 15L6 11H18Z" fill="#FD665E" />
+                            </svg></button>
+                        <button class="btn-swiper btn-articles-next">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 11V9H14L10 5L11 3L18 10L11 17L10 15L14 11H2Z" fill="#FD665E" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dream section">
+            <div class="wrapper">
+                <div class="dream__content">
+                    <!-- <figure class="dream__image"> -->
+                    <img src="./src/img/img-06.png" alt="House in the clouds" class="dream__img">
+                    <!-- </figure> -->
+                    <div class="dream__title">
+                        <h2 class="section__title">Realize your<br> dream project<br> with <span
+                                class="color-red">Archmove</span></h2>
+                        <button class="btn btn__red">Free Consultation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners section">
+            <div class="wrapper">
+                <h3 class="section__title">Our Partners</h3>
+                <div class="partners__company">
+                    <figure class="partners__company-first">
+                        <img src="./src/img/U-Turn.png" alt="Logo U-Turn company">
+                        <figcaption>
+                            <p>Lorem ipsum dolor sit amet consectetur, voluptatem nobis, vero aliquid minus ullam?
+                                Eveniet, deserunt autem.
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure class="partners__company-second">
+                        <img src="./src/img/Nextmove.png" alt="Logo Nextmove company">
+                        <figcaption>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing! Consequuntur omnis ut dolorum
+                                voluptates facilis hic ipsam?</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="partners__company-third">
+                        <img src="./src/img/Pinpoint.png" alt="Logo Pinpoint company">
+                        <figcaption>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sequi illum
+                                eligendi ratione mollitia incidunt.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="partners__company-fourth">
+                        <img src="./src/img/Leafe.png" alt="Logo Leafe company">
+                        <figcaption>
+                            <p>Lorem ipsum adipisicing elit. Beatae, architecto facere? Sed nostrum commodi?</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="partners__company-fifth">
+                        <img src="./src/img/Terra.png" alt="Logo Terra company">
+                        <figcaption>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium. Fugiat!</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="partners__company-sixth">
+                        <img src="./src/img/Dune.png" alt="Logo Dune company">
+                        <figcaption>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="wrapper">
+            <div class="footer__box">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">How it Works</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">FAQ</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Contact Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <img src="./src/img/logo-footer.png" alt="Logo Archmove company" class="footer__img">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./dist/js/swipers.min.js"></script>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
